@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 10%);
+}
+header {
+  background-color: hsl(300, 100%, 15%);
+  color: hsl(300, 100%, 85%);
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px hsl(300, 100%, 10%);
+}
+nav a {
+  color: hsl(300, 100%, 85%);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+section {
+  text-align: center;
+  padding: 2rem;
+  color:hsl(0, 0%, 90%)
+}
+#projects {
+  padding: 2rem;
+  background-color: hsl(0, 0%, 10%);
+}
+.project {
+  border: 1px solid #0f0f0f;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px hsl(300, 100%, 15%);
+}
+.project h3 {
+  margin-top: 0;
+  color: hsl(300, 100%, 85%);
+}
+.project a {
+  color: hsl(300, 100%, 85%);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.project a:hover {
+  text-decoration: underline;
+}
