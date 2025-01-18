@@ -1,23 +1,50 @@
 body {
   font-family: Arial, sans-serif;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   background-color: hsl(0, 0%, 10%);
 }
-header {
+header{
   background-color: hsl(300, 100%, 15%);
   color: hsl(300, 100%, 85%);
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 4px hsl(300, 100%, 10%);
 }
+header:hover{
+  transition: all 0.5s;
+  background-color: hsl(300, 100%, 25%);
+  color: hsl(300, 100%, 95%);
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px hsl(300, 100%, 20%);
+}
 nav a {
   color: hsl(300, 100%, 85%);
   margin: 0 1rem;
   text-decoration: none;
 }
+nav a:hover{
+  transition: all 0.5s;
+  color: hsl(300, 100%, 95%);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+#about{
+  margin: 20px;
+  background-color: hsl(300, 100%, 25%);
+  box-shadow: 0px 0px 10px hsl(300, 100%, 35%);
+  max-width: 500px
+}
+#about:hover{
+  transition: all 0.5s;
+  margin: 20px;
+  background-color: hsl(300, 100%, 35%);
+  box-shadow: 0px 0px 10px hsl(300, 100%, 45%);
+  max-width: 500px
+}
 section {
-  text-align: center;
   padding: 2rem;
   color:hsl(0, 0%, 90%)
 }
@@ -26,11 +53,20 @@ section {
   background-color: hsl(0, 0%, 10%);
 }
 .project {
+  max-width: 600px;
   border: 1px solid #0f0f0f;
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;
   box-shadow: 0 2px 4px hsl(300, 100%, 15%);
+}
+.project:hover {
+  transition: all 0.5s;
+  border: 1px solid #0f0f0f;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px hsl(300, 100%, 25%);
 }
 .project h3 {
   margin-top: 0;
@@ -42,5 +78,7 @@ section {
   margin-right: 1rem;
 }
 .project a:hover {
-  text-decoration: underline;
+  transition: all 0.5s;
+  color: hsl(300, 100%, 95%);
+  margin-right: 1rem;
 }
