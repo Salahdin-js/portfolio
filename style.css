@@ -1,4 +1,3 @@
-
 body {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -132,6 +131,8 @@ section {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+
 body.dark-mode {
   background-color: hsl(0, 0%, 90%);
 }
