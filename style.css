@@ -39,6 +39,17 @@ nav a:hover{
   margin: 0 1rem;
   text-decoration: none;
 }
+header button{
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 90%);
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0 0 3px hsl(0, 0%, 90%);
+  border-radius: 3px;
+}
+header button:hover{
+  background-color: hsl(0, 0%, 100%);
+}
 #about{
   transition: all 0.5s;
   margin: 2.5%;
