@@ -50,7 +50,7 @@ header button{
 header button:hover{
   background-color: hsl(0, 0%, 100%);
 }
-.h2{
+.label{
   color: hsl(300, 100%, 95%);
 }
 #about{
@@ -157,6 +157,9 @@ body.dark-mode nav a {
 body.dark-mode nav a:hover{
   transition: all 0.5s;
   color: hsl(240, 100%, 5%);
+}
+body.dark-mode .label{
+  color: hsl(300, 100%, 95%);
 }
 body.dark-mode #about{
   transition: all 0.5s;
