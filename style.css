@@ -51,7 +51,7 @@ header button:hover{
   background-color: hsl(0, 0%, 100%);
 }
 .label{
-  color: hsl(240, 100%, 5%);
+  color: hsl(300, 100%, 95%);
 }
 #about{
   transition: all 0.5s;
@@ -159,7 +159,7 @@ body.dark-mode nav a:hover{
   color: hsl(240, 100%, 5%);
 }
 body.dark-mode .label{
-  color: hsl(300, 100%, 95%);
+  color: hsl(240, 100%, 5%);
 }
 body.dark-mode #about{
   transition: all 0.5s;
